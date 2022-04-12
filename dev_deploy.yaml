@@ -14,8 +14,8 @@ spec:
         lb: hello-telemachus
     spec:
       containers:
-#        - image: 'telemachusluu/nginx:${parameters["tag"]}'
-        - image: 'telemachusluu/nginx:tuesday'
+        - image: 'telemachusluu/nginx:${parameters["tag"]}'
+#        - image: 'telemachusluu/nginx:tuesday'
           imagePullPolicy: Always
           name: primary
           ports:
