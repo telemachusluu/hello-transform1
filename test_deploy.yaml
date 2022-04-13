@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: hello-transform
 spec:
-  replicas: 3
+  replicas: 4
   selector:
     matchLabels:
       app: hello-transform
